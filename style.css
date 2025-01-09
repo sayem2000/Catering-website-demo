@@ -1,0 +1,96 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{line-height: 1.6;}
+
+/* navbar section */
+.navbar{width: 100%;
+height: auto;
+padding: 5px;
+display: flex;
+border-bottom: 1px solid black;}
+
+.logo{padding: 10px;}
+
+.logo:hover{background-color: grey;transition: .3s;}
+
+.nav-links{display: flex;
+margin-left: 980px;
+padding: 10px;}
+
+.nav-links li{list-style: none;}
+
+.nav-links a{margin-left: 20px;
+text-decoration: none;
+color: black;
+font-weight: bold;}
+
+/* main-image */
+.main-image{background-image: url(hamburger.jpg);
+height: 100vh;
+width: 100%;}
+
+.main-image{padding-top: 580px;}
+
+.cate{margin-left:20px;}
+
+.main-image p{margin-left: 20px;}
+
+/* about section */
+.about{padding: 10px;
+display: flex;
+border-bottom: 1px solid black;}
+
+.about-image img{margin-left: 50px;
+height: 400px;
+width: 300px;}
+
+.about-main{text-align: center;
+margin-left: 30px;}
+
+.Catering{margin-top: 20px;}
+
+/* our menu section */
+
+.our-menu{display: flex;
+padding: 50px 10px 50px 10px;
+border-bottom: 1px solid black;}
+
+.our-menu img{height: 530px;
+width: 330px;}
+
+.menu-set{margin-left: 260px;}
+
+.menu-image{margin-left: 200px;}
+
+/* contact section */
+
+.contact{padding: 50px 10px 30px 10px;
+border-bottom: 1px solid black;}
+
+form{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 30px;}
+
+form input{padding: 10px;
+height: 30px;
+width: 1200px;
+margin-bottom: 20px;
+border-radius: 10px;}
+
+textarea{height: 50px;
+width: 800px;
+margin-bottom: 20px;
+padding: 10px;
+border-radius: 10px;}
+
+button{padding: 10px;}
+
+/* footer section */
+
+.footer{background-color: aliceblue;
+padding: 30px;
+text-align: center;}
